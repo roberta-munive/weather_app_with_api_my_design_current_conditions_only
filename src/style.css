@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* background: linear-gradient(to top, #09203f 0%, #537895 100%); */
+  background-color: #1a355b;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+hr {
+  border-color: #d3d6db;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 2px solid #d3d6db;
+  border-radius: 10px;
+}
+
+.weather-watch-card-body {
+  /* background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+  background: linear-gradient(
+    180.3deg,
+    rgb(214, 224, 255) 37.2%,
+    rgb(254, 168, 168) 137.3%
+  );
+
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 30px;
+}
+
+/* search section of app */
+
+.search-bar-input,
+.search-btn {
+  border: 1px solid #d3d6db;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 15px;
+  width: 50%;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.search-btn {
+  border: 1px solid #38598b;
+  color: #38598b;
+  margin-left: 5px;
+  transition: all 150ms ease-in-out;
+  width: 15%;
+}
+
+.search-btn:hover {
+  background-color: #38598b;
+  color: white;
+  cursor: pointer;
+}
+
+/* current conditions section of app */
+
+.current-city {
+  font-size: 44px;
+}
+
+.current-conditions {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.current-conditions-description {
+  font-size: 30px;
+  margin-top: 5px;
+}
+.current-conditions-icon {
+  left: -15px;
+  position: relative;
+  height: 88px;
+  width: 88px;
+}
+
+.current-date-time {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.current-feels-like-temperature {
+  opacity: 0.7;
+  text-align: center;
+}
+
+.current-temperature {
+  font-size: 100px;
+}
+
+.degree-unit {
+  font-size: 28px;
+  position: relative;
+  top: -50px;
+}
+
+/* forecast section of app */
+
+/* footer section of app */
+
+footer {
+  font-size: 12px;
+  margin: 20px;
+  opacity: 0.7;
+  text-align: center;
+}
