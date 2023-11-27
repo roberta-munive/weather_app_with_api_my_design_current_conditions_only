@@ -54,7 +54,7 @@ hr {
 }
 
 .search-btn {
-  border: 1px solid #38598b;
+  border: 1px solid rgb(56, 89, 139, 0.6);
   color: #38598b;
   margin-left: 5px;
   transition: all 150ms ease-in-out;
